@@ -30,15 +30,19 @@ document.getElementById('contactForm').addEventListener('submit', function(event
         return;
     }
 
-    // Submit the form
-    this.submit();
-
-    // Hide the form and display the thank you message
+    // Hide the form and display the thank-you message
     document.getElementById('contactForm').style.display = 'none';
     document.getElementById('thankYouMessage').style.display = 'block';
 
-    // Reload the page after 5 seconds
+    console.log('Form validated and ready to submit.');
+
+    // Submit the form
+    this.submit(); // Let Netlify handle the form submission
+
+    // Reload the page after 5 seconds (optional)
     setTimeout(function() {
-        location.reload();
+        if (document.getElementById('thankYouMessage').style.display === 'block') {
+            location.reload();
+        }
     }, 5000);
 });
