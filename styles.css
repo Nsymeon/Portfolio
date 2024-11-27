@@ -9,7 +9,7 @@ body {
 
 /* Header Styles (Lab 1) */
 header {
-  background-color: #50b3a2;
+  background-color: #b3506c;
   color: #fff;
   padding: 30px;
   text-align: center;
@@ -38,13 +38,13 @@ section {
 }
 
 section h2 {
-  border-bottom: 2px solid #e8491d;
+  border-bottom: 2px solid #94341a;
   padding-bottom: 10px;
 }
 
 /* About Me Section Styling (Lab 1) */
 section#about {
-  background-color: #e2e2e2;
+  background-color: #888888;
 }
 
 /* Resume Section Styling (Lab 1) */
@@ -54,17 +54,17 @@ section#resume ul {
 }
 
 section#resume li {
-  background-color: #f4f4f4;
+  background-color: #eca6f8;
   margin-bottom: 5px;
   padding: 10px;
-  border-left: 4px solid #50b3a2;
+  border-left: 4px solid #474948;
 }
 
 /* Project Section Styling (Lab 1) */
 section#projects a {
   display: inline-block;
   margin-top: 10px;
-  color: #50b3a2;
+  color: #73b350;
   text-decoration: none;
 }
 
@@ -74,7 +74,7 @@ section#projects a:hover {
 
 /* Contact Form Styling (Lab 1) */
 form {
-  background-color: #f4f4f4;
+  background-color: #f50000;
   padding: 20px;
   border-radius: 5px;
 }
@@ -91,12 +91,12 @@ form textarea {
   width: 100%;
   padding: 10px;
   margin-bottom: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid #382f37;
   border-radius: 4px;
 }
 
 .form-btn {
-  background-color: #50b3a2;
+  background-color: #66d2c0;
   color: #fff;
   border: none;
   padding: 15px 30px;
