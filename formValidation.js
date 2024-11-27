@@ -30,19 +30,18 @@ document.getElementById('contactForm').addEventListener('submit', function(event
         return;
     }
 
-    // Hide the form and display the thank-you message
-    document.getElementById('contactForm').style.display = 'none';
-    document.getElementById('thankYouMessage').style.display = 'block';
+    // Show confirmation dialog with the entered data
+    const confirmationMessage = `
+        Please confirm the details below before sending the email:
+        Name: ${name}
+        Email: ${email}
+        Message: ${message}
+    `;
 
-    console.log('Form validated and ready to submit.');
-
-    // Submit the form
-    this.submit(); // Let Netlify handle the form submission
-
-    // Reload the page after 5 seconds (optional)
-    setTimeout(function() {
-        if (document.getElementById('thankYouMessage').style.display === 'block') {
-            location.reload();
-        }
-    }, 5000);
+    if (confirm(confirmationMessage)) {
+        // Submit the form programmatically for Netlify to handle
+        this.submit();
+    } else {
+        alert('Submission cancelled. You can modify your details.');
+    }
 });
