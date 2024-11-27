@@ -1,15 +1,12 @@
 document.getElementById('contactForm').addEventListener('submit', function(event) {
-    event.preventDefault(); // Prevent the default form submission
+    event.preventDefault(); 
 
-    // Retrieve values from the fields
     const name = document.querySelector('input[name="fullname"]').value.trim();
     const email = document.querySelector('input[name="email"]').value.trim();
     const message = document.querySelector('textarea[name="message"]').value.trim();
 
-    // Regular expression for email validation
     const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
-    // Check for empty fields and email format
     if (!name) {
         alert('Please enter your full name.');
         return;
@@ -30,7 +27,6 @@ document.getElementById('contactForm').addEventListener('submit', function(event
         return;
     }
 
-    // Show confirmation dialog with the entered data
     const confirmationMessage = `
         Please confirm the details below before sending the email:
         Name: ${name}
@@ -39,9 +35,9 @@ document.getElementById('contactForm').addEventListener('submit', function(event
     `;
 
     if (confirm(confirmationMessage)) {
-        // Submit the form programmatically for Netlify to handle
         this.submit();
     } else {
         alert('Submission cancelled. You can modify your details.');
     }
 });
+//Site: nsymeon.netlify.app
