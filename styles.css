@@ -44,7 +44,7 @@ section h2 {
 
 /* About Me Section Styling (Lab 1) */
 section#about {
-  background-color: #888888;
+  background-color: #030064;
 }
 
 /* Resume Section Styling (Lab 1) */
@@ -110,13 +110,13 @@ form textarea {
 }
 
 .form-btn:hover {
-  background-color: #3e8e7e;
+  background-color: #0600bb;
 }
 
 /* Submit Button Styling */
 form input[type="submit"],
 .form-submit {
-  background-color: #50b3a2;
+  background-color: #04006c;
   color: #fff;
   border: none;
   padding: 15px 30px;
@@ -134,7 +134,7 @@ form input[type="submit"]:hover,
 
 /* Footer Styles (Lab 1) */
 footer {
-  background-color: #35424a;
+  background-color: #a3dafc;
   color: #f4f4f4;
   text-align: center;
   padding: 20px;
