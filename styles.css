@@ -9,7 +9,7 @@ body {
 
 /* Header Styles (Lab 1) */
 header {
-  background-color: #b1afe3;
+  background-color: #04006c;
   color: #fff;
   padding: 30px;
   text-align: center;
@@ -38,7 +38,7 @@ section {
 }
 
 section h2 {
-  border-bottom: 2px solid #ae88fa88;
+  border-bottom: 2px solid #04006c;
   padding-bottom: 10px;
 }
 
