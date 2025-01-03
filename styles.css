@@ -4,12 +4,12 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.6;
-  background-color: #f4f4f4;
+  background-color: #e0e1dd;
 }
 
 /* Header Styles (Lab 1) */
 header {
-  background-color: #3c00e3;
+  background-color: #415a77;
   color: #fff;
   padding: 30px;
   text-align: center;
@@ -33,18 +33,18 @@ header img {
 /* Section Styles (Lab 1) */
 section {
   padding: 20px;
-  background-color: #fff;
+  background-color: #e0e1dd;
   margin: 20px;
 }
 
 section h2 {
-  border-bottom: 2px solid #3c00e3;
+  border-bottom: 2px solid #415a77;
   padding-bottom: 10px;
 }
 
 /* About Me Section Styling (Lab 1) */
 section#about {
-  background-color: #3c00e3;
+  background-color: #415a77;
 }
 
 /* Resume Section Styling (Lab 1) */
@@ -54,17 +54,17 @@ section#resume ul {
 }
 
 section#resume li {
-  background-color: #eca6f8;
+  background-color: #e0e1dd;
   margin-bottom: 5px;
   padding: 10px;
-  border-left: 4px solid #474948;
+  border-left: 4px solid #778da9;
 }
 
 /* Project Section Styling (Lab 1) */
 section#projects a {
   display: inline-block;
   margin-top: 10px;
-  color: #73b350;
+  color: #778da9;
   text-decoration: none;
 }
 
@@ -74,7 +74,7 @@ section#projects a:hover {
 
 /* Contact Form Styling (Lab 1) */
 form {
-  background-color: #ffc8c8;
+  background-color: #e0e1dd;
   padding: 20px;
   border-radius: 5px;
 }
@@ -91,7 +91,7 @@ form textarea {
   width: 98%;
   padding: 10px;
   margin-bottom: 10px;
-  border: 1px solid #382f37;
+  border: 1px solid #778da9;
   border-radius: 4px;
 }
 
@@ -110,13 +110,13 @@ form textarea {
 }
 
 .form-btn:hover {
-  background-color: #3c00e3;
+  background-color: #415a77;
 }
 
 /* Submit Button Styling */
 form input[type="submit"],
 .form-submit {
-  background-color: #3c00e3;
+  background-color: #415a77;
   color: #fff;
   border: none;
   padding: 15px 30px;
@@ -129,7 +129,7 @@ form input[type="submit"],
 
 form input[type="submit"]:hover,
 .form-submit:hover {
-  background-color: #3e8e7e;
+  background-color: #778da9;
 }
 
 /* Footer Styles (Lab 1) */
