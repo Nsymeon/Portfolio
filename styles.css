@@ -1,16 +1,17 @@
-/* General Styles (Lab 1) */
+/* General Styles (Lab 1) */ 
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   line-height: 1.6;
-  background-color: #e0e1dd;
+  background-color: #778da9;
+  color: #e0e1dd;
 }
 
 /* Header Styles (Lab 1) */
 header {
-  background-color: #415a77;
-  color: #fff;
+  background-color: #1b263b;
+  color: #e0e1dd;
   padding: 30px;
   text-align: center;
 }
@@ -33,18 +34,19 @@ header img {
 /* Section Styles (Lab 1) */
 section {
   padding: 20px;
-  background-color: #e0e1dd;
+  background-color: #1b263b;
   margin: 20px;
+  color: #e0e1dd;
 }
 
 section h2 {
-  border-bottom: 2px solid #415a77;
+  border-bottom: 2px solid #e0e1dd;
   padding-bottom: 10px;
 }
 
 /* About Me Section Styling (Lab 1) */
 section#about {
-  background-color: #415a77;
+  background-color: #1b263b;
 }
 
 /* Resume Section Styling (Lab 1) */
@@ -54,17 +56,17 @@ section#resume ul {
 }
 
 section#resume li {
-  background-color: #415a77;
+  background-color: #1b263b;
   margin-bottom: 5px;
   padding: 10px;
-  border-left: 4px solid #778da9;
+  border-left: 4px solid #415a77;
 }
 
 /* Project Section Styling (Lab 1) */
 section#projects a {
   display: inline-block;
   margin-top: 10px;
-  color: #778da9;
+  color: #e0e1dd;
   text-decoration: none;
 }
 
@@ -74,7 +76,7 @@ section#projects a:hover {
 
 /* Contact Form Styling (Lab 1) */
 form {
-  background-color: #415a77;
+  background-color: #1b263b;
   padding: 20px;
   border-radius: 5px;
 }
@@ -83,6 +85,7 @@ form label {
   display: block;
   margin-bottom: 5px;
   font-weight: bold;
+  color: #e0e1dd;
 }
 
 form input[type="text"],
@@ -91,13 +94,13 @@ form textarea {
   width: 98%;
   padding: 10px;
   margin-bottom: 10px;
-  border: 1px solid #778da9;
+  border: 1px solid #1b263b;
   border-radius: 4px;
 }
 
 .form-btn {
-  background-color: #66d2c091;
-  color: #fff;
+  background-color: #415a77;
+  color: #e0e1dd;
   border: none;
   padding: 15px 30px;
   cursor: pointer;
@@ -106,17 +109,17 @@ form textarea {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: background-color 0.3s ease; 
+  transition: background-color 0.3s ease;
 }
 
 .form-btn:hover {
-  background-color: #415a77;
+  background-color: #1b263b;
 }
 
 /* Submit Button Styling */
 form input[type="submit"],
 .form-submit {
-  background-color: #415a77;
+  background-color: #1b263b;
   color: #fff;
   border: none;
   padding: 15px 30px;
@@ -129,12 +132,12 @@ form input[type="submit"],
 
 form input[type="submit"]:hover,
 .form-submit:hover {
-  background-color: #778da9;
+  background-color: #1b263b;
 }
 
 /* Footer Styles (Lab 1) */
 footer {
-  background-color: #415a77;
+  background-color: #1b263b;
   color: #f4f4f4;
   text-align: center;
   padding: 20px;
@@ -142,7 +145,7 @@ footer {
 }
 
 footer a {
-  color: #415a77;
+  color: #e0e1dd;
   text-decoration: none;
   margin: 0 10px;
 }
