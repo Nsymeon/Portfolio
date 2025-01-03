@@ -134,7 +134,7 @@ form input[type="submit"]:hover,
 
 /* Footer Styles (Lab 1) */
 footer {
-  background-color: #a3dafc;
+  background-color: #415a77;
   color: #f4f4f4;
   text-align: center;
   padding: 20px;
@@ -142,7 +142,7 @@ footer {
 }
 
 footer a {
-  color: #f4f4f4;
+  color: #415a77;
   text-decoration: none;
   margin: 0 10px;
 }
