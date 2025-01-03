@@ -54,7 +54,7 @@ section#resume ul {
 }
 
 section#resume li {
-  background-color: #ffffff;
+  background-color: #415a77;
   margin-bottom: 5px;
   padding: 10px;
   border-left: 4px solid #778da9;
@@ -74,7 +74,7 @@ section#projects a:hover {
 
 /* Contact Form Styling (Lab 1) */
 form {
-  background-color: #e5e5e5;
+  background-color: #415a77;
   padding: 20px;
   border-radius: 5px;
 }
